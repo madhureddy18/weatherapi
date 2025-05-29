@@ -15,6 +15,19 @@ This project is a FastAPI-based web service that fetches historical weather data
 
 ---
 
+Prerequisites
+Python 3.8+
+
+PostgreSQL database (Google Cloud SQL or local)
+
+pip to install dependencies
+
+Open-Meteo API (no API key required)
+
+Network access to your Cloud SQL PostgreSQL instance
+
+---
+
 ## 🏗️ Project Structure
 weatherapi  /
 |---main.py
