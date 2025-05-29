@@ -8,10 +8,10 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy.exc import SQLAlchemyError
 
 # Database config
-DB_USER = "postgres"
-DB_PASS = "madhureddy18"
-DB_NAME = "weather_data"
-DB_HOST = "34.60.106.250"
+DB_USER = "Your_databse_name
+DB_PASS = "Database_password"
+DB_NAME = "Database_Name"
+DB_HOST = "DB_host or IP address"
 DB_PORT = "5432"
 
 DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
