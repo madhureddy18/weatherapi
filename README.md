@@ -15,7 +15,8 @@ This project is a FastAPI-based web service that fetches historical weather data
 
 ---
 
-Prerequisites
+## Prerequisites
+
 Python 3.8+
 
 PostgreSQL database (Google Cloud SQL or local)
